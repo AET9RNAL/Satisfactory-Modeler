@@ -79,23 +79,377 @@
       ]
     },
     {
-      "Name": "Constructor Mk.4",
-      "Tier": "6-1",
-      "AveragePower": "-30",
+      "Name": "Smelter Mk.1",
+      "Tier": "0-2",
+      "AveragePower": "-4",
       "OverclockPowerExponent": "1321929/1000000",
       "MaxProductionShards": 1,
       "ProductionShardMultiplier": "1",
       "ProductionShardPowerExponent": "2",
       "Cost": [
-        {"Part": "Reinforced Iron Plate", "Amount": "8"},
-        {"Part": "Rotor", "Amount": "6"},
-        {"Part": "Cable", "Amount": "30"}
+        {"Part": "Iron Rod", "Amount": "5"},
+        {"Part": "Wire", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Smelter Mk.2",
+      "Tier": "2-1",
+      "AveragePower": "-12",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Iron Rod", "Amount": "5"},
+        {"Part": "Wire", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Smelter Mk.3",
+      "Tier": "4-3",
+      "AveragePower": "-20",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Iron Rod", "Amount": "5"},
+        {"Part": "Wire", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Foundry Mk.1",
+      "Tier": "3-3",
+      "AveragePower": "-16",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Modular Frame", "Amount": "10"},
+        {"Part": "Rotor", "Amount": "10"},
+        {"Part": "Concrete", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Foundry Mk.2",
+      "Tier": "5-2",
+      "AveragePower": "-48",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Modular Frame", "Amount": "10"},
+        {"Part": "Rotor", "Amount": "10"},
+        {"Part": "Concrete", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Foundry Mk.3",
+      "Tier": "7-1",
+      "AveragePower": "-80",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Modular Frame", "Amount": "10"},
+        {"Part": "Rotor", "Amount": "10"},
+        {"Part": "Concrete", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Refinery Mk.1",
+      "Tier": "5-2",
+      "AveragePower": "-30",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Motor", "Amount": "10"},
+        {"Part": "Encased Industrial Beam", "Amount": "10"},
+        {"Part": "Steel Pipe", "Amount": "30"},
+        {"Part": "Copper Sheet", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Refinery Mk.2",
+      "Tier": "7-3",
+      "AveragePower": "-90",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Motor", "Amount": "10"},
+        {"Part": "Encased Industrial Beam", "Amount": "10"},
+        {"Part": "Steel Pipe", "Amount": "30"},
+        {"Part": "Copper Sheet", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Refinery Mk.3",
+      "Tier": "8-4",
+      "AveragePower": "-150",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Motor", "Amount": "10"},
+        {"Part": "Encased Industrial Beam", "Amount": "10"},
+        {"Part": "Steel Pipe", "Amount": "30"},
+        {"Part": "Copper Sheet", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Packager Mk.1",
+      "Tier": "5-4",
+      "AveragePower": "-10",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Steel Beam", "Amount": "20"},
+        {"Part": "Rubber", "Amount": "10"},
+        {"Part": "Plastic", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Packager Mk.2",
+      "Tier": "7-1",
+      "AveragePower": "-30",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Steel Beam", "Amount": "20"},
+        {"Part": "Rubber", "Amount": "10"},
+        {"Part": "Plastic", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Packager Mk.3",
+      "Tier": "8-2",
+      "AveragePower": "-50",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Steel Beam", "Amount": "20"},
+        {"Part": "Rubber", "Amount": "10"},
+        {"Part": "Plastic", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Manufacturer Mk.1",
+      "Tier": "6-1",
+      "AveragePower": "-55",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Motor", "Amount": "10"},
+        {"Part": "Modular Frame", "Amount": "20"},
+        {"Part": "Plastic", "Amount": "50"},
+        {"Part": "Cable", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Manufacturer Mk.2",
+      "Tier": "8-3",
+      "AveragePower": "-165",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Motor", "Amount": "10"},
+        {"Part": "Modular Frame", "Amount": "20"},
+        {"Part": "Plastic", "Amount": "50"},
+        {"Part": "Cable", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Manufacturer Mk.3",
+      "Tier": "9-1",
+      "AveragePower": "-275",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Motor", "Amount": "10"},
+        {"Part": "Modular Frame", "Amount": "20"},
+        {"Part": "Plastic", "Amount": "50"},
+        {"Part": "Cable", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Blender Mk.1",
+      "Tier": "7-5",
+      "AveragePower": "-75",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Computer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Blender Mk.2",
+      "Tier": "9-3",
+      "AveragePower": "-225",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Computer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Blender Mk.3",
+      "Tier": "9-5",
+      "AveragePower": "-375",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Computer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Converter",
+      "Tier": "9-2",
+      "AveragePower": "-250",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Converter Mk.1",
+      "Tier": "9-2",
+      "AveragePower": "-250",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Converter Mk.2",
+      "Tier": "9-3",
+      "AveragePower": "-750",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Converter Mk.3",
+      "Tier": "9-4",
+      "AveragePower": "-1250",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "10"},
+        {"Part": "Motor", "Amount": "20"},
+        {"Part": "Heavy Modular Frame", "Amount": "10"},
+        {"Part": "Aluminum Casing", "Amount": "50"}
+      ]
+    },
+    {
+      "Name": "Quantum Encoder",
+      "Tier": "9-2",
+      "AveragePower": "-1000",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "20"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "100"}
+      ]
+    },
+    {
+      "Name": "Quantum Encoder Mk.1",
+      "Tier": "9-2",
+      "AveragePower": "-1000",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "20"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "100"}
+      ]
+    },
+    {
+      "Name": "Quantum Encoder Mk.2",
+      "Tier": "9-3",
+      "AveragePower": "-3000",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "20"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "100"}
+      ]
+    },
+    {
+      "Name": "Quantum Encoder Mk.3",
+      "Tier": "9-5",
+      "AveragePower": "-5000",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Crystal Oscillator", "Amount": "20"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Heavy Modular Frame", "Amount": "20"},
+        {"Part": "Aluminum Casing", "Amount": "100"}
       ]
     },
     {
       "Name": "Storage Container",
       "Tier": "0-5",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Iron Plate", "Amount": "10"},
         {"Part": "Iron Rod", "Amount": "10"}
@@ -115,7 +469,6 @@
     {
       "Name": "Space Elevator",
       "Tier": "0-6",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Concrete", "Amount": "500"},
         {"Part": "Iron Plate", "Amount": "250"},
@@ -161,7 +514,6 @@
     {
       "Name": "Fluid Buffer",
       "Tier": "3-1",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Copper Sheet", "Amount": "10"},
         {"Part": "Modular Frame", "Amount": "5"}
@@ -206,7 +558,6 @@
     {
       "Name": "Industrial Storage Container",
       "Tier": "4-2",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Steel Beam", "Amount": "20"},
         {"Part": "Steel Pipe", "Amount": "20"}
@@ -264,7 +615,6 @@
     {
       "Name": "Industrial Fluid Buffer",
       "Tier": "5-5",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Encased Industrial Beam", "Amount": "5"},
         {"Part": "Copper Sheet", "Amount": "10"},
@@ -343,7 +693,6 @@
     {
       "Name": "Resource Well Extractor",
       "Tier": "8-3",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Steel Beam", "Amount": "10"},
         {"Part": "Aluminum Casing", "Amount": "10"}
@@ -404,9 +753,53 @@
       ]
     },
     {
+      "Name": "Particle Accelerator Mk.1",
+      "Tier": "8-5",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Turbo Motor", "Amount": "10"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Fused Modular Frame", "Amount": "25"},
+        {"Part": "Cooling System", "Amount": "50"},
+        {"Part": "Quickwire", "Amount": "500"}
+      ]
+    },
+    {
+      "Name": "Particle Accelerator Mk.2",
+      "Tier": "9-3",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Turbo Motor", "Amount": "10"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Fused Modular Frame", "Amount": "25"},
+        {"Part": "Cooling System", "Amount": "50"},
+        {"Part": "Quickwire", "Amount": "500"}
+      ]
+    },
+    {
+      "Name": "Particle Accelerator Mk.3",
+      "Tier": "9-5",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Turbo Motor", "Amount": "10"},
+        {"Part": "Supercomputer", "Amount": "10"},
+        {"Part": "Fused Modular Frame", "Amount": "25"},
+        {"Part": "Cooling System", "Amount": "50"},
+        {"Part": "Quickwire", "Amount": "500"}
+      ]
+    },
+    {
       "Name": "Alien Power Augmenter",
       "Tier": "9-1",
-      "AveragePower": "0",
       "BasePower": "500",
       "BasePowerBoost": "1/10",
       "FueledBasePowerBoost": "3/10",
@@ -436,7 +829,6 @@
     {
       "Name": "Dimensional Depot Uploader",
       "Tier": "9-1",
-      "AveragePower": "0",
       "Cost": [
         {"Part": "Mercer Sphere", "Amount": "1"},
         {"Part": "SAM Fluctuator", "Amount": "10"},
@@ -528,24 +920,209 @@
       "Name": "Constructor",
       "ShowPpm": false,
       "AutoRound": false,
-      "DefaultMax": "60",
+      "DefaultMax": "1",
       "Machines": [
         {
           "Name": "Constructor Mk.1",
-          "PartsRatio": "4",
+          "PartsRatio": "1",
           "Default": true
         },
         {
           "Name": "Constructor Mk.2",
-          "PartsRatio": "12"
+          "PartsRatio": "3"
         },
         {
           "Name": "Constructor Mk.3",
-          "PartsRatio": "20"
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Smelter",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Smelter Mk.1",
+          "PartsRatio": "1",
+          "Default": true
         },
         {
-          "Name": "Constructor Mk.4",
-          "PartsRatio": "30"
+          "Name": "Smelter Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Smelter Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Foundry",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Foundry Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Foundry Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Foundry Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Refinery",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Refinery Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Refinery Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Refinery Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Packager",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Packager Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Packager Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Packager Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Manufacturer",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Manufacturer Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Manufacturer Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Manufacturer Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Blender",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Blender Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Blender Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Blender Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Converter",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Converter Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Converter Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Converter Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Quantum Encoder",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Quantum Encoder Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Quantum Encoder Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Quantum Encoder Mk.3",
+          "PartsRatio": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Particle Accelerator",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "1",
+      "Machines": [
+        {
+          "Name": "Particle Accelerator Mk.1",
+          "PartsRatio": "1",
+          "Default": true
+        },
+        {
+          "Name": "Particle Accelerator Mk.2",
+          "PartsRatio": "3"
+        },
+        {
+          "Name": "Particle Accelerator Mk.3",
+          "PartsRatio": "5"
         }
       ]
     },
@@ -567,47 +1144,6 @@
           "Name": "Pure",
           "PartsRatio": "2",
           "Color": 8433977
-        }
-      ]
-    },
-    {
-      "Name": "Storage Container",
-      "Machines": [
-        {
-          "Name": "Storage Container",
-          "Default": true
-        },
-        {
-          "Name": "Industrial Storage Container"
-        },
-        {
-          "Name": "Fluid Buffer"
-        },
-        {
-          "Name": "Industrial Fluid Buffer"
-        }
-      ],
-      "Capacities": [
-        {
-          "Name": "Partially Full",
-          "Default": true,
-          "Description": "<html>Partially Full, also Partially Empty:<br/>Extra parts can be either added or taken from this.<br/>This means that it will neither back up nor be short on parts.<br/>This means the inputs and outputs do not rely on each other which allows them to be calculated independently.<br/>You can use this setting to separate parts of your factory for independent calculations.</html>"
-        },
-        {
-          "Name": "Full",
-          "Color": 8433977,
-          "Description": "<html>Full:<br/>Extra parts can be taken from this, but more parts cannot be added than are taken.<br/>This means that it will never be short on parts but can back up.<br/>This means the output does not rely on the input, but the input does rely on the output.<br/>You may be able to get improved calculations using this setting (but not as good as Partially Full).</html>"
-        },
-        {
-          "Name": "Empty",
-          "Color": 13775920,
-          "Description": "<html>Empty:<br/>Extra parts can be added to this, but more parts cannot be taken than are added.<br/>This means that it will never back up but can be short on parts.<br/>This means the input does not rely on the output, but the output does rely on the input.<br/>You may be able to get improved calculations using this setting (but not as good as Partially Full).</html>"
-        },
-        {
-          "Name": "Input = Output",
-          "PartsRatio": "480",
-          "Color": 16311334,
-          "Description": "<html>Input = Output:<br/>The input and outputs must match exactly.<br/>This makes it the same as using a splurger but with a different icon.</html>"
         }
       ]
     },
@@ -984,6 +1520,7 @@
     },
     {
       "Name": "Water",
+      "Fluid": true,
       "Tier": "3-1",
       "SinkPoints": 0
     },
@@ -1109,16 +1646,19 @@
     },
     {
       "Name": "Crude Oil",
+      "Fluid": true,
       "Tier": "5-2",
       "SinkPoints": 0
     },
     {
       "Name": "Fuel",
+      "Fluid": true,
       "Tier": "5-2",
       "SinkPoints": 0
     },
     {
       "Name": "Heavy Oil Residue",
+      "Fluid": true,
       "Tier": "5-2",
       "SinkPoints": 0
     },
@@ -1179,21 +1719,25 @@
     },
     {
       "Name": "Ionized Fuel",
+      "Fluid": true,
       "Tier": "5-4",
       "SinkPoints": 0
     },
     {
       "Name": "Liquid Biofuel",
+      "Fluid": true,
       "Tier": "5-4",
       "SinkPoints": 0
     },
     {
       "Name": "Rocket Fuel",
+      "Fluid": true,
       "Tier": "5-4",
       "SinkPoints": 0
     },
     {
       "Name": "Turbofuel",
+      "Fluid": true,
       "Tier": "5-4",
       "SinkPoints": 0
     },
@@ -1304,6 +1848,7 @@
     },
     {
       "Name": "Alumina Solution",
+      "Fluid": true,
       "Tier": "7-1",
       "SinkPoints": 0
     },
@@ -1339,6 +1884,7 @@
     },
     {
       "Name": "Sulfuric Acid",
+      "Fluid": true,
       "Tier": "7-5",
       "SinkPoints": 0
     },
@@ -1399,6 +1945,7 @@
     },
     {
       "Name": "Nitrogen Gas",
+      "Fluid": true,
       "Tier": "8-3",
       "SinkPoints": 0
     },
@@ -1439,6 +1986,7 @@
     },
     {
       "Name": "Dissolved Silica",
+      "Fluid": true,
       "Tier": "8-5",
       "SinkPoints": 0
     },
@@ -1449,6 +1997,7 @@
     },
     {
       "Name": "Nitric Acid",
+      "Fluid": true,
       "Tier": "8-5",
       "SinkPoints": 0
     },
@@ -1529,11 +2078,13 @@
     },
     {
       "Name": "Dark Matter Residue",
+      "Fluid": true,
       "Tier": "9-2",
       "SinkPoints": 0
     },
     {
       "Name": "Excited Photonic Matter",
+      "Fluid": true,
       "Tier": "9-2",
       "SinkPoints": 0
     },
@@ -1770,7 +2321,8 @@
       "Tier": "0-6",
       "Parts": [
         {"Part": "Leaves", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Iron Rod",
@@ -1845,7 +2397,8 @@
       "Tier": "0-6",
       "Parts": [
         {"Part": "Mycelia", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Wood Biomass Burner",
@@ -1854,7 +2407,8 @@
       "Tier": "0-6",
       "Parts": [
         {"Part": "Wood", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Copper Ingot",
@@ -2093,7 +2647,8 @@
       "Tier": "0-6",
       "Parts": [
         {"Part": "Biomass", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Concrete",
@@ -2598,7 +3153,8 @@
       "Tier": "2-1",
       "Parts": [
         {"Part": "Smart Plating", "Amount": "-50"}
-      ]
+      ],
+      "SpaceElevatorMultiplier": true
     },
     {
       "Name": "Plastic Smart Plating",
@@ -2630,7 +3186,8 @@
       "Tier": "2-2",
       "Parts": [
         {"Part": "Solid Biofuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Coal (Iron)",
@@ -2711,7 +3268,8 @@
       "Parts": [
         {"Part": "Coal", "Amount": "-1"},
         {"Part": "Water", "Amount": "-3"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Distilled Silica",
@@ -2964,7 +3522,8 @@
         {"Part": "Smart Plating", "Amount": "-1000"},
         {"Part": "Versatile Framework", "Amount": "-1000"},
         {"Part": "Automated Wiring", "Amount": "-100"}
-      ]
+      ],
+      "SpaceElevatorMultiplier": true
     },
     {
       "Name": "Automated Speed Wiring",
@@ -3033,7 +3592,8 @@
       "Parts": [
         {"Part": "Petroleum Coke", "Amount": "-1"},
         {"Part": "Water", "Amount": "-9/5"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Rifle Ammo",
@@ -3189,7 +3749,8 @@
       "Tier": "5-5",
       "Parts": [
         {"Part": "Fuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Diluted Fuel",
@@ -3257,7 +3818,8 @@
       "Parts": [
         {"Part": "Compacted Coal", "Amount": "-1"},
         {"Part": "Water", "Amount": "-63/10"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Compacted Coal",
@@ -3290,7 +3852,8 @@
         {"Part": "Packaged Fuel", "Amount": "-2"},
         {"Part": "Fuel", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Unpackage Heavy Oil Residue",
@@ -3301,7 +3864,8 @@
         {"Part": "Packaged Heavy Oil Residue", "Amount": "-2"},
         {"Part": "Heavy Oil Residue", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Unpackage Oil",
@@ -3312,7 +3876,8 @@
         {"Part": "Packaged Oil", "Amount": "-2"},
         {"Part": "Crude Oil", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Unpackage Water",
@@ -3323,7 +3888,8 @@
         {"Part": "Packaged Water", "Amount": "-2"},
         {"Part": "Water", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Coated Iron Canister",
@@ -3357,7 +3923,8 @@
         {"Part": "Water", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Water", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Empty Fluid Tank",
@@ -3378,7 +3945,8 @@
         {"Part": "Heavy Oil Residue", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Heavy Oil Residue", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Oil",
@@ -3389,7 +3957,8 @@
         {"Part": "Crude Oil", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Oil", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Fuel",
@@ -3400,7 +3969,8 @@
         {"Part": "Fuel", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Fuel", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Diluted Packaged Fuel",
@@ -3412,7 +3982,8 @@
         {"Part": "Heavy Oil Residue", "Amount": "-1"},
         {"Part": "Packaged Water", "Amount": "-2"},
         {"Part": "Packaged Fuel", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Liquid Biofuel",
@@ -3423,7 +3994,8 @@
         {"Part": "Liquid Biofuel", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Liquid Biofuel", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Liquid Biofuel Biomass Burner",
@@ -3432,7 +4004,8 @@
       "Tier": "5-4",
       "Parts": [
         {"Part": "Packaged Liquid Biofuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Turbofuel",
@@ -3443,7 +4016,8 @@
         {"Part": "Turbofuel", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Turbofuel", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Rocket Fuel",
@@ -3454,7 +4028,8 @@
         {"Part": "Rocket Fuel", "Amount": "-2"},
         {"Part": "Empty Fluid Tank", "Amount": "-1"},
         {"Part": "Packaged Rocket Fuel", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Ionized Fuel",
@@ -3465,7 +4040,8 @@
         {"Part": "Ionized Fuel", "Amount": "-4"},
         {"Part": "Empty Fluid Tank", "Amount": "-2"},
         {"Part": "Packaged Ionized Fuel", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Ionized Fuel",
@@ -3488,7 +4064,8 @@
         {"Part": "Packaged Ionized Fuel", "Amount": "-2"},
         {"Part": "Ionized Fuel", "Amount": "4"},
         {"Part": "Empty Fluid Tank", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Ionized Fuel Generator",
@@ -3497,7 +4074,8 @@
       "Tier": "5-5",
       "Parts": [
         {"Part": "Ionized Fuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Dark-Ion Fuel",
@@ -3534,7 +4112,8 @@
         {"Part": "Packaged Liquid Biofuel", "Amount": "-2"},
         {"Part": "Liquid Biofuel", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Liquid Biofuel Generator",
@@ -3543,7 +4122,8 @@
       "Tier": "5-5",
       "Parts": [
         {"Part": "Liquid Biofuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Unpackage Rocket Fuel",
@@ -3554,7 +4134,8 @@
         {"Part": "Packaged Rocket Fuel", "Amount": "-1"},
         {"Part": "Rocket Fuel", "Amount": "2"},
         {"Part": "Empty Fluid Tank", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Rocket Fuel Generator",
@@ -3563,7 +4144,8 @@
       "Tier": "5-5",
       "Parts": [
         {"Part": "Rocket Fuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Rocket Fuel",
@@ -3612,7 +4194,8 @@
         {"Part": "Packaged Turbofuel", "Amount": "-2"},
         {"Part": "Turbofuel", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Turbofuel Generator",
@@ -3621,7 +4204,8 @@
       "Tier": "5-5",
       "Parts": [
         {"Part": "Turbofuel", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Turbo Heavy Fuel",
@@ -3959,14 +4543,16 @@
         {"Part": "Versatile Framework", "Amount": "-2500"},
         {"Part": "Modular Engine", "Amount": "-500"},
         {"Part": "Adaptive Control Unit", "Amount": "-100"}
-      ]
+      ],
+      "SpaceElevatorMultiplier": true
     },
     {
       "Name": "Geothermal Generator",
       "Machine": "Geothermal Generator",
       "BatchTime": "0",
       "Tier": "6-1",
-      "Parts": []
+      "Parts": [],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Bauxite (Caterium)",
@@ -4089,7 +4675,8 @@
         {"Part": "Alumina Solution", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Alumina Solution", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Alclad Aluminum Sheet",
@@ -4145,7 +4732,8 @@
         {"Part": "Packaged Alumina Solution", "Amount": "-2"},
         {"Part": "Alumina Solution", "Amount": "2"},
         {"Part": "Empty Canister", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Sloppy Alumina",
@@ -4180,7 +4768,8 @@
         {"Part": "Sulfuric Acid", "Amount": "-2"},
         {"Part": "Empty Canister", "Amount": "-2"},
         {"Part": "Packaged Sulfuric Acid", "Amount": "2"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Battery",
@@ -4318,7 +4907,8 @@
         {"Part": "Packaged Sulfuric Acid", "Amount": "-1"},
         {"Part": "Sulfuric Acid", "Amount": "1"},
         {"Part": "Empty Canister", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Uranium Ore (Bauxite)",
@@ -4442,7 +5032,8 @@
         {"Part": "Uranium Fuel Rod", "Amount": "-1"},
         {"Part": "Water", "Amount": "-1200"},
         {"Part": "Uranium Waste", "Amount": "50"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Packaged Nitrogen Gas",
@@ -4453,7 +5044,8 @@
         {"Part": "Nitrogen Gas", "Amount": "-4"},
         {"Part": "Empty Fluid Tank", "Amount": "-1"},
         {"Part": "Packaged Nitrogen Gas", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Heat Sink",
@@ -4539,7 +5131,8 @@
         {"Part": "Packaged Nitrogen Gas", "Amount": "-1"},
         {"Part": "Nitrogen Gas", "Amount": "4"},
         {"Part": "Empty Fluid Tank", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Nitrogen Gas (Bauxite)",
@@ -4647,7 +5240,8 @@
         {"Part": "Nitric Acid", "Amount": "-1"},
         {"Part": "Empty Fluid Tank", "Amount": "-1"},
         {"Part": "Packaged Nitric Acid", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Plutonium Fuel Rod",
@@ -4708,7 +5302,8 @@
         {"Part": "Magnetic Field Generator", "Amount": "-500"},
         {"Part": "Nuclear Pasta", "Amount": "-100"},
         {"Part": "Thermal Propulsion Rocket", "Amount": "-250"}
-      ]
+      ],
+      "SpaceElevatorMultiplier": true
     },
     {
       "Name": "Quartz Purification",
@@ -4769,7 +5364,8 @@
         {"Part": "Packaged Nitric Acid", "Amount": "-1"},
         {"Part": "Nitric Acid", "Amount": "1"},
         {"Part": "Empty Fluid Tank", "Amount": "1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Non-Fissile Uranium",
@@ -4822,7 +5418,8 @@
         {"Part": "Plutonium Fuel Rod", "Amount": "-1"},
         {"Part": "Water", "Amount": "-2400"},
         {"Part": "Plutonium Waste", "Amount": "10"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Reanimated SAM",
@@ -5006,7 +5603,8 @@
       "Tier": "9-2",
       "Parts": [
         {"Part": "Alien Power Matrix", "Amount": "-1"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "Dark Matter Crystal",
@@ -5176,7 +5774,8 @@
         {"Part": "Biochemical Sculptor", "Amount": "-1000"},
         {"Part": "AI Expansion Server", "Amount": "-256"},
         {"Part": "Ballistic Warp Drive", "Amount": "-200"}
-      ]
+      ],
+      "SpaceElevatorMultiplier": true
     },
     {
       "Name": "Ficsonium",
@@ -5216,7 +5815,8 @@
       "Parts": [
         {"Part": "Ficsonium Fuel Rod", "Amount": "-1"},
         {"Part": "Water", "Amount": "-240"}
-      ]
+      ],
+      "IgnoreInputMultiplier": true
     },
     {
       "Name": "FICSMAS Gift",
